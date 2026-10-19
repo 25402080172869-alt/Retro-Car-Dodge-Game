@@ -1,0 +1,58 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 24px 16px;
+}
+.victory-card {
+  --background: #16161A;
+  --outline-color: #00FF66;
+  width: 500px;
+  min-width: 500px;
+  max-width: 500px;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.victory-layout {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 24px 0;
+  position: relative;
+  padding: 32px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.victory-avatar {
+  --ig-size: var(--ig-size-large);
+  --igx-avatar-background: #00FF66;
+}
+.icon {
+  color: #000000;
+}
+.victory-title {
+  text-align: center;
+  color: #00FF66;
+  height: max-content;
+  min-width: min-content;
+}
+.victory-text {
+  text-align: center;
+  color: #FFFFFF;
+  height: max-content;
+  min-width: min-content;
+}
+.victory-avatar::part(base) {
+  --igx-avatar-color: #000000;
+}
+.victory-restart-button {
+  --foreground: #000000;
+  --background: #00FF66;
+  --ig-size: var(--ig-size-large);
+  height: max-content;
+}

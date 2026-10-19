@@ -1,0 +1,35 @@
+<igx-card class="start-card">
+  <igx-card-header>
+    <h3 igxCardHeaderTitle>
+      El título va aquí...
+    </h3>
+    <h5 igxCardHeaderSubtitle>
+      El subtítulo va aquí...
+    </h5>
+  </igx-card-header>
+  <igx-card-content>
+    <div class="column-layout start-layout">
+      <igx-avatar shape="circle" class="start-avatar">
+        <igx-icon class="icon">
+          videogame_asset
+        </igx-icon>
+      </igx-avatar>
+      <h4 class="start-title">
+        PREPÁRATE PILOTO
+      </h4>
+      <p class="start-text">
+        Esquiva el tráfico pesado a alta velocidad y alcanza la gloria retro arcade. ¡Demuestra tus reflejos!
+      </p>
+      <button igxButton="contained" type="button" [routerLink]="[`/stage-1`]" class="start-button">
+        <igx-icon class="icon_1">
+          play_arrow
+        </igx-icon>
+        <span>INICIAR CARRERA (INSERT COIN)</span>
+      </button>
+    </div>
+  </igx-card-content>
+  <igx-card-actions>
+    <ng-container igxStart></ng-container>
+    <ng-container igxEnd></ng-container>
+  </igx-card-actions>
+</igx-card>

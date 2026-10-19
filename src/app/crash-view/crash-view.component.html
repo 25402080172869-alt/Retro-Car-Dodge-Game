@@ -1,0 +1,35 @@
+<igx-card class="crash-card">
+  <igx-card-header>
+    <h3 igxCardHeaderTitle>
+      El título va aquí...
+    </h3>
+    <h5 igxCardHeaderSubtitle>
+      El subtítulo va aquí...
+    </h5>
+  </igx-card-header>
+  <igx-card-content>
+    <div class="column-layout crash-layout">
+      <igx-avatar shape="circle" class="crash-avatar">
+        <igx-icon class="icon">
+          report_problem
+        </igx-icon>
+      </igx-avatar>
+      <h4 class="crash-title">
+        ¡BOOM! HAS CHOCADO
+      </h4>
+      <p class="crash-text">
+        Tu bólido impactó a alta velocidad contra el tráfico de la autopista digital. ¿Quieres reinsertar ficha?
+      </p>
+      <button igxButton="contained" type="button" [routerLink]="[`/stage-1`]" class="crash-restart-button">
+        <igx-icon class="icon">
+          replay
+        </igx-icon>
+        <span>REINTENTAR (INSERT COIN)</span>
+      </button>
+    </div>
+  </igx-card-content>
+  <igx-card-actions>
+    <ng-container igxStart></ng-container>
+    <ng-container igxEnd></ng-container>
+  </igx-card-actions>
+</igx-card>

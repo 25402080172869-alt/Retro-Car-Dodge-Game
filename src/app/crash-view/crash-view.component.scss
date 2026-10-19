@@ -1,0 +1,58 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 24px 16px;
+}
+.crash-card {
+  --background: #16161A;
+  --outline-color: #FF0055;
+  width: 500px;
+  min-width: 500px;
+  max-width: 500px;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.crash-layout {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 24px 0;
+  position: relative;
+  padding: 32px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.crash-avatar {
+  --ig-size: var(--ig-size-large);
+  --igx-avatar-background: #FF0055;
+}
+.icon {
+  color: #FFFFFF;
+}
+.crash-title {
+  text-align: center;
+  color: #FF0055;
+  height: max-content;
+  min-width: min-content;
+}
+.crash-text {
+  text-align: center;
+  color: #FFFFFF;
+  height: max-content;
+  min-width: min-content;
+}
+.crash-avatar::part(base) {
+  --igx-avatar-color: #FFFFFF;
+}
+.crash-restart-button {
+  --foreground: #FFFFFF;
+  --background: #FF0055;
+  --ig-size: var(--ig-size-large);
+  height: max-content;
+}

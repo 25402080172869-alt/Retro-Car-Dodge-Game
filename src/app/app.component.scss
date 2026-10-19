@@ -1,0 +1,259 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px 0;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.main-game-container {
+  background-color: #0D0D11;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px 0;
+  position: relative;
+  padding: 32px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.row-layout {
+  display: flex;
+}
+.game-header {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px 0;
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.title-group {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 8px 0;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.badge-group {
+  justify-content: flex-end;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0 12px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.stats-strip {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.score-card {
+  --background: #16161A;
+  --outline-color: #00FFCC;
+  min-width: 260px;
+  flex-grow: 1;
+}
+.column-layout-g-4-6cvn {
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px 0;
+  position: relative;
+  padding: 16px;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+.row-layout-g-9ukaq {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.row-layout-bn-0sug {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0 4px;
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.high-score-card {
+  --background: #16161A;
+  --outline-color: #FF0055;
+  min-width: 260px;
+  flex-grow: 1;
+}
+.speed-card {
+  --background: #16161A;
+  --outline-color: #FFFF00;
+  min-width: 260px;
+  flex-grow: 1;
+}
+.lives-card {
+  --background: #16161A;
+  --outline-color: #00E5FF;
+  min-width: 260px;
+  flex-grow: 1;
+}
+.row-layout-qlkul {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0 4px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.content {
+  color: #00FFCC;
+  height: max-content;
+  min-width: min-content;
+}
+.game-subtitle {
+  color: #8A8A93;
+  height: max-content;
+  min-width: min-content;
+}
+.avatar-eifb-4 {
+  --ig-size: var(--ig-size-small);
+  --igx-avatar-background: #00FFCC;
+}
+.icon {
+  color: #000000;
+}
+.title-ga-5ykn {
+  color: #FFFFFF;
+  height: max-content;
+  min-width: min-content;
+}
+.icon-mqy-9ks {
+  --size: 18px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  color: #00FF66;
+}
+.text-h-1-4n-8 {
+  color: #00FF66;
+  height: max-content;
+  min-width: min-content;
+}
+.text-r-9swas {
+  color: #FF0055;
+  height: max-content;
+  min-width: min-content;
+}
+.avatar-nchdm {
+  --ig-size: var(--ig-size-small);
+  --igx-avatar-background: #FF0055;
+}
+.icon-jkbfpq {
+  --size: 18px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  color: #FF0055;
+}
+.text-0tzzng {
+  color: #FFFF00;
+  height: max-content;
+  min-width: min-content;
+}
+.avatar-htns-0h {
+  --ig-size: var(--ig-size-small);
+  --igx-avatar-background: #FFFF00;
+}
+.icon-ltuq-8k {
+  --size: 18px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  color: #FFFF00;
+}
+.text-ufxk-0o {
+  color: #00E5FF;
+  height: max-content;
+  min-width: min-content;
+}
+.avatar-vj-7-3w-7a {
+  --ig-size: var(--ig-size-small);
+  --igx-avatar-background: #00E5FF;
+}
+.icon-5hveu-8 {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: #FF0055;
+}
+.icon-ommcswv {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: #8A8A93;
+}
+.icon-ay-0zni {
+  --size: 18px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  color: #00E5FF;
+}
+.avatar-eifb-4::part(base) {
+  --igx-avatar-color: #000000;
+}
+.avatar-nchdm::part(base) {
+  --igx-avatar-color: #000000;
+}
+.avatar-htns-0h::part(base) {
+  --igx-avatar-color: #000000;
+}
+.avatar-vj-7-3w-7a::part(base) {
+  --igx-avatar-color: #000000;
+}
+.arcade-badge {
+  width: max-content;
+  height: max-content;
+}
+.game-view-container {
+  overflow: auto;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  flex-grow: 1;
+}

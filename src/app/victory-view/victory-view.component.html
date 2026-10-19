@@ -1,0 +1,35 @@
+<igx-card class="victory-card">
+  <igx-card-header>
+    <h3 igxCardHeaderTitle>
+      El título va aquí...
+    </h3>
+    <h5 igxCardHeaderSubtitle>
+      El subtítulo va aquí...
+    </h5>
+  </igx-card-header>
+  <igx-card-content>
+    <div class="column-layout victory-layout">
+      <igx-avatar shape="circle" class="victory-avatar">
+        <igx-icon class="icon">
+          emoji_events
+        </igx-icon>
+      </igx-avatar>
+      <h4 class="victory-title">
+        ¡VICTORIA EN LA AUTOPISTA!
+      </h4>
+      <p class="victory-text">
+        ¡Has completado el recorrido perfecto sin un solo rasguño! Has sumado 1,500 puntos de récord.
+      </p>
+      <button igxButton="contained" type="button" [routerLink]="[`/stage-1`]" class="victory-restart-button">
+        <igx-icon class="icon">
+          replay
+        </igx-icon>
+        <span>JUGAR DE NUEVO (INSERT COIN)</span>
+      </button>
+    </div>
+  </igx-card-content>
+  <igx-card-actions>
+    <ng-container igxStart></ng-container>
+    <ng-container igxEnd></ng-container>
+  </igx-card-actions>
+</igx-card>

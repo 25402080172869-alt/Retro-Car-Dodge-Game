@@ -1,0 +1,82 @@
+<div class="column-layout road-container-2">
+  <p class="ig-typography__overline road-title-2">
+    FALTA 2 KM - OBSTÁCULO AL CENTRO
+  </p>
+  <div class="row-layout road-grid-2">
+    <div class="column-layout left-lane-2">
+      <div class="column-layout left-obstacle-space-2">
+        <igx-icon class="left-clear-icon-2">
+          expand_more
+        </igx-icon>
+      </div>
+      <p class="blank-left-2">
+        . . .
+      </p>
+      <div class="column-layout player-left-slot-2">
+        <p class="ig-typography__caption player-left-text-2">
+          Libre
+        </p>
+      </div>
+    </div>
+    <div class="column-layout center-lane-2">
+      <div class="column-layout center-obstacle-space-2">
+        <img src="/assets/blue-sport-car-top-view-vector-7752b1ced552.png" alt="" class="obstacle-center-image" />
+        <igx-badge type="error" value="BARRESA OBRAS" class="obstacle-center-badge"></igx-badge>
+      </div>
+      <p class="blank-left-2">
+        . . .
+      </p>
+      <div class="column-layout player-left-slot-2">
+        <p class="ig-typography__caption player-left-text-2">
+          Libre
+        </p>
+      </div>
+    </div>
+    <div class="column-layout right-lane-2">
+      <div class="column-layout left-obstacle-space-2">
+        <igx-icon class="left-clear-icon-2">
+          expand_more
+        </igx-icon>
+      </div>
+      <p class="blank-left-2">
+        . . .
+      </p>
+      <div class="column-layout center-obstacle-space-2">
+        <igx-badge type="success" value="TÚ" class="obstacle-center-badge"></igx-badge>
+        <img src="/assets/yellow-arcade-racer-car-top-vi-cf85584f846e.png" alt="" class="player-car-image-2" />
+      </div>
+    </div>
+  </div>
+</div>
+<div class="column-layout controls-stage-2">
+  <div class="row-layout controls-header-2">
+    <h5 class="controls-title-2">
+      JOYSTICK CONSOLE
+    </h5>
+    <igx-icon class="left-clear-icon-2">
+      videogame_asset
+    </igx-icon>
+  </div>
+  <p class="ig-typography__body-2 blank-left-2">
+    ¡Peligro! Hay una barrera en el carril CENTRAL. Debes girar a la IZQUIERDA para esquivarla.
+  </p>
+  <div class="column-layout steering-box-2">
+    <p class="ig-typography__overline road-title-2">
+      DIRECCIÓN DE MARCHA
+    </p>
+    <div class="row-layout steering-buttons-2">
+      <button igxButton="contained" type="button" [routerLink]="[`/stage-3`]" class="girar-izquierda-2">
+        <igx-icon class="icon">
+          arrow_back
+        </igx-icon>
+        <span>IZQUIERDA</span>
+      </button>
+      <button igxButton="contained" type="button" [routerLink]="[`/crash-view`]" class="girar-derecha-2">
+        <span>DERECHA</span>
+        <igx-icon class="icon_1">
+          arrow_forward
+        </igx-icon>
+      </button>
+    </div>
+  </div>
+</div>
